@@ -29,7 +29,7 @@ uint32_t rotr(uint32_t original, uint8_t bits) {
  * Adds two unsigned integers modulo 2^32 without overflow/undefined behavior.
  * @param first		first integer to add
  * @param second	second integer to add
- * @return sum modulo 2^32
+ * @return sum modulo 2^32 
  */
 uint32_t add_mod_2_32(uint32_t first, uint32_t second) {
 	uint32_t max_first_no_overflow = UINT32_MAX - second;
