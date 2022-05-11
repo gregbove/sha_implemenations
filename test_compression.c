@@ -4,7 +4,7 @@
 void compress(uint32_t* h0, uint32_t* h1, uint32_t* h2, uint32_t* h3,
 		uint32_t* h4, uint32_t* h5, uint32_t* h6, uint32_t* h7,
 		const uint32_t *w, const uint32_t *k,
-		uint32_t *shift_buffer);
+		uint32_t *shift_buffer); 
 
 const uint32_t init_hash_224[8] = { 
 		0xc1059ed8,
