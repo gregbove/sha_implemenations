@@ -1,6 +1,6 @@
 #include <stdint.h>
 #include <stdio.h>
-#include <stdbool.h>
+#include <stdbool.h> 
 
 void concat_digests(const uint32_t h0, const uint32_t h1, const uint32_t h2,
 		const uint32_t h3, const uint32_t h4, const uint32_t h5,
