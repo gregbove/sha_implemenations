@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
-#include <stdbool.h>
+#include <stdbool.h> 
 
 uint64_t strlength(const char *str);
 
