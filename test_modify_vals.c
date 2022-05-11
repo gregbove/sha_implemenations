@@ -3,7 +3,7 @@
 
 void modify_final_vals(uint32_t* h1, uint32_t* h2, uint32_t* h3, uint32_t* h5,
 		uint32_t* h6, uint32_t* h7, const uint32_t *shift_buffer);
-
+ 
 uint32_t abc_original_digests_224[8] = {
 		0x23097d22,
 		0x367cd507,
