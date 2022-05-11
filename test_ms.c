@@ -3,7 +3,7 @@
 
 uint64_t strlength(const char *str);
 void create_message_schedule(char *input, uint32_t *out);
-void print_hex(char *str, uint64_t chars);
+void print_hex(char *str, uint64_t chars); 
 
 typedef struct preprocessed_msg_t {
 	char overflow[64 * 2];
