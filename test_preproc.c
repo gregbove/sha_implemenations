@@ -32,7 +32,7 @@ int test_message(char* desc, char* message, uint64_t msg_length) {
 	printf("Overflow Buf:  ");
 	print_hex(preproc.overflow, 64);
 	printf("\n");
-	printf("Overflow2 Buf: ");
+	printf("Overflow2 Buf: "); 
 	print_hex(preproc.overflow + 64, 64);
 	printf("\n");
 	printf("Message Length (Bytes): %lld\n", msg_length);
