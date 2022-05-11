@@ -12,7 +12,7 @@ const uint32_t expected_init_hash_224[8] = {
 		0xf70e5939,
 		0xffc00b31,
 		0x68581511,
-		0x64f98fa7,
+		0x64f98fa7, 
 		0xbefa4fa4
 };
 
